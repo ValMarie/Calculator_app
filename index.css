@@ -1,0 +1,15 @@
+.operator_key{
+    background-color: royalblue;
+    color: seashell;
+    float: left;
+}
+button {
+    color: royalblue;
+    background-color:seashell;
+   width: 30px;
+}
+#calculate {
+    background-color: crimson;
+    color: seashell;
+    height: 60px;
+}

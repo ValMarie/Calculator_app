@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<style>
+  
+</style>
+<body>
+    <div id="calculator" align = 'left'>
+            <div id="calculator_display">
+                <h1 style="border:1px solid black; width:100px;  height: 40px"></h1>
+            </div>
+            <div id='calculator_keys' onclick =' button_click()'>
+                <button id='operator_key' data-action="add">+</button>
+                <button id='operator_key' data-action="subtract">-</button>
+                <button id='operator_key' data-action="nultipy">x</button>
+                <button id='operator_key' data-action="divide">/</button><br>
+                <button>7</button>
+                <button>8</button>
+                <button>9</button><br>
+                <button>4</button>
+                <button>5</button>
+                <button>6</button><br>
+                <button>1</button>
+                <button>2</button>
+                <button>3</button><br>
+                <button data-action="decimal">.</button>
+                <button>0</button>
+                <button id='reset' data-action="clear">AC</button><br>
+                <button id="calculate" data-action="equals">=</button>   
+            </div>
+    </div>
+    <script src="index.js"></script>
+</body>
+</html>
