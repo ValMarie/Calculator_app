@@ -1,15 +1,21 @@
-.operator_key{
+.operator{
     background-color: royalblue;
     color: seashell;
-    float: left;
 }
+
 button {
     color: royalblue;
     background-color:seashell;
    width: 30px;
 }
+
 #calculate {
     background-color: crimson;
     color: seashell;
     height: 60px;
 }
+
+h1 {
+    border:1px solid black; 
+    width:100px;
+    height:40px;
